@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  background-image: url("./pictures/2434391.jpg");
+}
+
+.main-box {
+  position: relative;
+  left: 300px;
+  width: 1300px;
+  height: 800px;
+  background-color: black;
+  opacity: 0.95;
+  top: 5px;
+}
+.option-menu {
+  width: 1300px;
+  height: 125px;
+  background-color: black;
+  opacity: 0.95;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.player {
+  width: 49%;
+  height: 800px;
+  float: left;
+  opacity: 0.5;
+  border-right: white 2px solid;
+}
+.dealer {
+  width: 50%;
+  height: 800px;
+  float: left;
+  opacity: 0.5;
+}
+.base-card {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.new-card-text {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  text-align: center;
+  margin-left: 255px;
+  margin-top: 10px;
+  float: left;
+}
+.card {
+  width: 130px;
+  height: 200px;
+  background-image: url("./pictures/back.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  float: left;
+}
+.card1 {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.card2 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.new-card {
+  position: relative;
+  top: 80px;
+  left: -130px;
+}
+.summary {
+  color: white;
+  float: left;
+  position: relative;
+  font-family: "Noto Sans KR", sans-serif;
+  top: 200px;
+  left: 240px;
+}
+.credits-text {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  float: left;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+ul {
+  list-style: none;
+}
+button {
+  text-decoration: none;
+}
+.option-box {
+  width: 120px;
+  height: 30px;
+  float: left;
+  margin-left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  margin-top: 45px;
+}
+.only-left {
+  margin-left: 250px;
+}
+.ipt {
+  float: right;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.btn-bet {
+  float: right;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 20px;
+  width: 50px;
+  height: 30px;
+  margin-right: 5px;
+}
+.curr-bet-text {
+  float: right;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  position: relative;
+  top: 75px;
+  left: 120px;
+}

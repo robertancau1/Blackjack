@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BlackJack</title>
+        <link rel='stylesheet' type='text/css' href='./style.css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-box">
+            <div class="player">
+                <h1 class="base-card">Player (2 base cards)</h1>
+                <div class="card card1 card1player"></div>
+                <div class="card card2 card2player"></div>
+                <h1 class="new-card-text">New Card</h1>
+                <div class="card new-card new-card-player"></div>
+                <h1 class="summary">Cards Sum: <span class="sum-player">0</span></h1>
+            </div>
+            <div class="dealer">
+                <h1 class="base-card">Dealer (2 base cards)</h1>
+                <div class="card card1 card1dealer"></div>
+                <div class="card card2 card2dealer"></div>
+                <h1 class="new-card-text">New Card</h1>
+                <div class="card new-card new-card-dealer"></div>
+                <h1 class="summary">Cards Sum: <span class="sum-dealer">0</span></h1>
+            </div>
+        </div>
+        <div class="option-menu">
+            <h2 class="credits-text">Credits: <span class="credits-value">10000</span></h2>
+            <ul>
+                <li>
+                    <button class="option-box only-left double-down">Double Down</button>
+                </li>
+                <li>
+                    <button class="option-box stand">Stand</button>
+                </li>
+                <li>
+                    <button class="option-box add-card">Add Card</button>
+                </li>
+            </ul>
+            <input type="number" class="ipt" placeholder="bet ammount">
+            <button class="btn-bet">Bet</button>
+            <h3 class="curr-bet-text">Current Bet: <span class="current-bet">0</span></h3>
+        </div>
+        <script src='./script.js'></script>
+    </body>
+</html>
